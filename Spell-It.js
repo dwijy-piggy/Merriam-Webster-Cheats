@@ -7,3 +7,4 @@ for(var i = 1; i <= 10; i++){
     try{document.getElementsByClassName("more-link visible next-question animated fadeInUp")[i-1].click()}
     catch{}
 }
+document.getElementsByClassName("more-link see-results visible animated fadeInUp")[0].click();
